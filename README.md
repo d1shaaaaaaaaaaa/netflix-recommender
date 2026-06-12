@@ -6,11 +6,12 @@ pip install -r requirements.txt
 
 ## How to run
 1. Download Netflix Prize dataset from Kaggle and place in /data
-2. Run notebooks in order: 01_eda → 02_model_svd → 03_model_knn
+2. Run notebooks in order: EDA → SVD → KNN
 
 ## Models
-- SVD (Matrix Factorization) via scikit-surprise
-- KNN Collaborative Filtering via scikit-surprise
+-SVD (Matrix factorisation)
+-KNN collaborative filtering (user based)
+-KNN collaborative filtering (item based)
 
 ## Evaluation
 - RMSE on test set
